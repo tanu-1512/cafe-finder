@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Finder ☕</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Café Finder ☕</h1>
+    <p>Find beautiful cafés around you instantly.</p>
+  </header>
+
+  <main>
+    <div class="center">
+      <button id="findNearby" class="btn">📍 Show Nearby Cafés</button>
+      <button id="showFavorites" class="btn" style="margin-left:10px;">⭐ Favorites</button>
+    </div>
+
+    <div id="loader" class="loader hidden"></div>
+
+    <section id="results" class="cards"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
